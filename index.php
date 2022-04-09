@@ -10,7 +10,7 @@
 			<h3>Favorite Menu</h3>
 				
 				<?php 
-					$k = mysql_query("SELECT * FROM produk ORDER BY id ASC limit 3"); 
+					$k = mysql_query("SELECT * FROM produk ORDER BY id ASC limit 5"); 
 					while($data = mysql_fetch_array($k)){
 				?>
 				<div class="col-md-4 content-menu">
